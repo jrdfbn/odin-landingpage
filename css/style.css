@@ -96,8 +96,14 @@ img {
     margin-bottom: 64px;
 }
 
-.info .caption-info {
+.info {
+    display: flex;
     max-width: 150px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.info .caption-info {
     color: #1F2937;
 }
 .info img{
